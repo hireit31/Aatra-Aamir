@@ -1,11 +1,8 @@
-import { useState } from "react";
-import { AppNavbar } from "./components/Navbar/AppNavbar";
-import GridLayout from "./components/GridLayout/GridLayout";
 import { BrowserRouter, Navigate, Routes, useNavigate } from "react-router";
 import AppLayout from "./components/AppLayout/AppLayout";
 import { Route } from "react-router";
 import LandingPage from "./pages/LandingPage";
-import ProductPage from "./pages/productPage";
+import ProductPage from "./pages/ProductPage";
 import FoodPage from "./pages/FoodPage";
 import EcommercePage from "./pages/EcommercePage";
 
