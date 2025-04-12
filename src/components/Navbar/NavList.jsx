@@ -53,13 +53,13 @@ export function NavList() {
         as="li"
         variant="small"
         color="gray"
-        className={`w-full p-1 text-base ${isActive("/clients")}`}
+        className={`w-full p-1 text-base ${isActive("/about")}`}
       >
         <Link
-          to=""
+          to="/about"
           className="flex justify-center hover:text-black transition-colors uppercase"
         >
-          CLIENTS
+          ABOUT
         </Link>
       </Typography>
       <Typography

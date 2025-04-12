@@ -5,6 +5,7 @@ import LandingPage from "./pages/LandingPage";
 import ProductPage from "./pages/ProductPage";
 import FoodPage from "./pages/FoodPage";
 import EcommercePage from "./pages/EcommercePage";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="products" element={<ProductPage />} />
             <Route path="food" element={<FoodPage />} />
             <Route path="ecommerce" element={<EcommercePage />} />
+            <Route path="about" element={<About />} />
           </Route>
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
