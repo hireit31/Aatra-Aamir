@@ -2,8 +2,8 @@ import { Typography, IconButton } from "@material-tailwind/react";
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-center pb-5">
-      <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
+    <footer className="bg-white text-center py-6">
+      <div className="flex gap-4 text-blue-gray-900 justify-center">
         <Typography
           as="a"
           href="mailto:aatra.aamir@gmail.com"

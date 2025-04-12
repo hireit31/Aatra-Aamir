@@ -5,7 +5,7 @@ import Footer from "../Footer/Footer";
 
 function AppLayout() {
   return (
-    <div className="">
+    <div className="max-w-screen">
       <AppNavbar />
       <Outlet />
       <Footer />
