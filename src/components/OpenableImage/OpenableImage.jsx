@@ -14,7 +14,7 @@ function OpenableImage({ src, classes }) {
         onClick={handleOpen}
         // onContextMenu={(e) => e.preventDefault()}
       >
-        <img alt="image" className={classes} src={src} />
+        <img alt="image" className={classes} src={src} loading="lazy" />
         <div
           className={`z-[100] bg-transparent absolute top-0 right-0 h-full w-full`}
         ></div>

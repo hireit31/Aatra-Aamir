@@ -1,14 +1,15 @@
 import React from "react";
 import { firstCol, secondCol, thirdCol, middle } from "../gridPresets/products";
-import GridLayout from "../components/GridLayout/GridLayout";
+import ProductLayout from "../components/GridLayout/ProductLayout";
 function ProductPage() {
   return (
     <div className="grid">
-      <GridLayout
+      <ProductLayout
         firstCol={firstCol}
         secondCol={secondCol}
         thirdCol={thirdCol}
         middle={middle}
+        large={true}
       />
     </div>
   );
