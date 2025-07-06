@@ -68,12 +68,6 @@ export function NavList() {
         color="gray"
         className={`w-full p-1 text-base ${isActive("/contact")}`}
       >
-        <Link
-          to=""
-          className="flex justify-center hover:text-black transition-colors uppercase"
-        >
-          CONTACT
-        </Link>
       </Typography>
     </ul>
   );

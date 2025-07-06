@@ -25,24 +25,6 @@ const Footer = () => {
 
         <Typography
           as="a"
-          href="#"
-          className="opacity-80 transition-opacity hover:opacity-100"
-        >
-          <svg
-            className="h-5 w-5"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-              clip-rule="evenodd"
-            />
-          </svg>
-        </Typography>
-        <Typography
-          as="a"
           href="https://www.instagram.com/aatraamirphotography/"
           className="opacity-80 transition-opacity hover:opacity-100"
         >
@@ -59,6 +41,22 @@ const Footer = () => {
             />
           </svg>
         </Typography>
+      <Typography
+  as="a"
+  href="https://www.linkedin.com/in/aatra-aamir-7989671b4/" // Replace with your actual LinkedIn URL
+  target="_blank"
+  rel="noopener noreferrer"
+  className="opacity-80 transition-opacity hover:opacity-100"
+>
+  <svg
+    className="h-5 w-5"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+  >
+    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.784 1.764-1.75 1.764zm13.5 11.268h-3v-5.604c0-1.338-.027-3.061-1.865-3.061-1.867 0-2.153 1.46-2.153 2.969v5.696h-3v-10h2.881v1.367h.041c.401-.76 1.379-1.562 2.838-1.562 3.035 0 3.595 2.002 3.595 4.604v5.591z" />
+  </svg>
+</Typography>
       </div>
 
       <Typography variant="small" className="text-gray-500">
